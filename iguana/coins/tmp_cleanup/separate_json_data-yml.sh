@@ -2,10 +2,10 @@
 path="../"
 data="${path}/methods"
 
-cd $path
 
-IFS='
-'
+URL="https://raw.githubusercontent.com/jl777/komodo/beta/src/assetchains"
+
+cd $path
 
 if [ "$1" != "list" ];then
   echo "USAGE:"
@@ -16,12 +16,16 @@ if [ "$1" != "list" ];then
 fi
 
 
+IFS='
+'
+
+SUPPLIES=(`curl $URL -s | grep "^komodo_asset" | awk '{print $2 " " $3 }'`)
 
 echo "assetchains:"
 for coin in `ls -1 *_7776`; do
     # echo  "Processing ==== $coin ===="
-    coin_name=`echo ${coin} | sed 's/_7776//g'`   
-    echo "  ${coin_name}:" | tr '[:lower:]' '[:upper:]'
+    coin_name=`echo ${coin} | sed 's/_7776//g' | tr '[:lower:]' '[:upper:]'`   
+    echo "  ${coin_name}:"
     echo "    iguana_payload:" 
     cat $coin | \
 	sed -n 's/^.*data \(.*\)$/\1/gp' | \
@@ -34,5 +38,18 @@ for coin in `ls -1 *_7776`; do
 	    -e 's/"\/"/\//g' \
 	    -e 's/^/      /g' | \
 	sed '/genesisblock: /{s/genesisblock: \(.[^\n]*\)/genesisblock: >\n        \1/g; s/.\{90\}/&\n        /g}'
-	
+
+    LIST="" 
+    for SUPP in `echo "${SUPPLIES[*]}"`;do
+	ASE=`echo ${SUPP} | awk '{print $1}'`
+	SUPPLY=`echo ${SUPP} | awk '{print $2}'`
+	if [ "${ASE}" = "${coin_name}" ];then
+	    LIST="${SUPPLY}"
+	fi
+    done
+    if [ -n "$LIST" ];then
+	echo "    supply: $LIST" 
+    else
+	echo "    supply:"
+    fi 	
 done

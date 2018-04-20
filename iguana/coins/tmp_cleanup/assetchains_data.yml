@@ -69,6 +69,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 200000000
   BET:
     iguana_payload:
       conf: BET.conf
@@ -139,6 +140,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   BOTS:
     iguana_payload:
       conf: BOTS.conf
@@ -209,6 +211,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   BTC:
     iguana_payload:
       conf: bitcoin.conf
@@ -227,6 +230,7 @@ assetchains:
       VALIDATE: 0
       portp2p: 8333
       minconfirms: 1
+    supply:
   BTCH:
     iguana_payload:
       conf: BTCH.conf
@@ -297,6 +301,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 20998641
   CEAL:
     iguana_payload:
       conf: CEAL.conf
@@ -367,6 +372,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 366666666
   CHIPS:
     iguana_payload:
       conf: chips.conf
@@ -388,6 +394,7 @@ assetchains:
       pubval: 60
       p2shval: 85
       wifval: 188
+    supply:
   COQUI:
     iguana_payload:
       conf: COQUI.conf
@@ -458,6 +465,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 72000000
   CRYPTO:
     iguana_payload:
       conf: CRYPTO.conf
@@ -528,6 +536,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   DEX:
     iguana_payload:
       conf: DEX.conf
@@ -598,6 +607,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   ETOMIC:
     iguana_payload:
       conf: ETOMIC.conf
@@ -668,6 +678,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 100000000
   HODL:
     iguana_payload:
       conf: HODL.conf
@@ -738,6 +749,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 9999999
   JUMBLR:
     iguana_payload:
       conf: JUMBLR.conf
@@ -808,6 +820,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   KMD:
     iguana_payload:
       conf: komodo.conf
@@ -877,6 +890,7 @@ assetchains:
         25a7edcfd2fb77a8794630285ccb0a071f5cce410b46dbf9750b0354aae8b65574501cc69efb5b6a43444074fe
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
+    supply:
   KV:
     iguana_payload:
       conf: KV.conf
@@ -947,6 +961,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 1000000
   LTC:
     iguana_payload:
       conf: litecoin.conf
@@ -984,6 +999,7 @@ assetchains:
       merkle_root: 97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9}
       alertpubkey: 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
       protover: 70002
+    supply:
   MESH:
     iguana_payload:
       conf: MESH.conf
@@ -1054,6 +1070,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 1000007
   MGW:
     iguana_payload:
       conf: MGW.conf
@@ -1124,6 +1141,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   MNZ:
     iguana_payload:
       conf: MNZ.conf
@@ -1194,6 +1212,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 257142858
   MSHARK:
     iguana_payload:
       conf: MSHARK.conf
@@ -1264,6 +1283,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 1400000
   MVP:
     iguana_payload:
       conf: MVP.conf
@@ -1334,6 +1354,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply:
   NINJA:
     iguana_payload:
       conf: NINJA.conf
@@ -1404,6 +1425,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 192.241.134.19
+    supply: 100000000
   OOT:
     iguana_payload:
       conf: OOT.conf
@@ -1474,6 +1496,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 216000000
   PANGEA:
     iguana_payload:
       conf: PANGEA.conf
@@ -1544,6 +1567,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 999999
   REVS:
     iguana_payload:
       conf: REVS.conf
@@ -1614,6 +1638,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 1300000
   SHARK:
     iguana_payload:
       conf: SHARK.conf
@@ -1684,6 +1709,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply:
   SUPERNET:
     iguana_payload:
       conf: SUPERNET.conf
@@ -1754,6 +1780,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 816061
   VOTE2018:
     iguana_payload:
       conf: VOTE2018.conf
@@ -1824,6 +1851,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 600000000
   VOTE:
     iguana_payload:
       conf: VOTE.conf
@@ -1894,6 +1922,7 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply:
   WLC:
     iguana_payload:
       conf: WLC.conf
@@ -1964,3 +1993,4 @@ assetchains:
         e116641bb29da56c2b4a7f456991fc92b2
       debug: 0
       seedipaddr: 78.47.196.146
+    supply: 210000000
