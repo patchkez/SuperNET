@@ -80,7 +80,7 @@ for coin in `ls -1 *_7776`; do
       :label-yes
       }
     }'| \
-	sed '/genesisblock: /{s/genesisblock: \(.[^\n]*\)/genesisblock: >-\n        "\1/g; s/.\{90\}/&\\\n        /g;s/$/"/g}'
+	sed '/genesisblock: /{s/genesisblock: \(.[^\n]*\)/genesisblock:\n        "\1/g; s/.\{90\}/&\\\n        /g;s/$/"/g}'
 
     LIST="" 
     for SUPP in `echo "${SUPPLIES[*]}"`;do
