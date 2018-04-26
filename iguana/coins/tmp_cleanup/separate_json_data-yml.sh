@@ -25,7 +25,7 @@ echo "check_my_ip: checkip.amazonaws.com"
 echo "misc_methods:"
 echo "  supernet_myip":
 
-cat ../m_notary_run | grep SuperNET | grep myipaddr | awk -F "--data " '{print $2}' | sed -e 's/\\"//g;s/"{//g;s/}"//g;s/,/\n    /g;s/^/    /g;s/:/ : /g'
+cat ../m_notary_run | grep SuperNET | grep myipaddr | awk -F "--data " '{print $2}' | sed -e 's/\\"//g;s/"{//g;s/}"//g;s/,/\n    /g;s/^/    /g;s/:/: /g'
 
 
 # Notaries IPs
@@ -33,14 +33,14 @@ echo "  notaries:"
 INDEX=1
 for notary in `cat ../tests/addnotarys_7776 | grep -v ^# | awk -F '--data "{' '{print $2}' | sed 's/\\"//g;s/}"//g'`;do
   echo "    notary${INDEX}:"
-  echo $notary | sed 's/\\//g;s/}//g;s/:/ : /g;s/,/\n      /g;s/^/      /g'
+  echo $notary | sed 's/\\//g;s/}//g;s/:/: /g;s/,/\n      /g;s/^/      /g'
   INDEX=$((INDEX+1))
 done
 
 
 # WP7776
 echo "  encrypt_wallet:"
-echo "{\"agent\":\"bitcoinrpc\",\"method\":\"encryptwallet\",\"passphrase\":\"\$passphrase\"}" | sed 's/{"//g;s/"//g;s/}//g;s/:/ : /g;s/,/\n    /g;s/^/    /g'
+echo "{\"agent\":\"bitcoinrpc\",\"method\":\"encryptwallet\",\"passphrase\":\"\$passphrase\"}" | sed 's/{"//g;s/"//g;s/}//g;s/:/: /g;s/,/\n    /g;s/^/    /g'
 
 echo "  walet_passphrase:"
 #echo "{\"method\":\"walletpassphrase\",\"params\":[\"\$passphrase\", 9999999]}" | sed 's/{"//g;s/"//g;s/}//g;s/:/ : /g;s/, /  /g;s/,/\n    /g;s/^/    /g'
@@ -50,7 +50,7 @@ echo "    method: walletpassphrase
       - 9999999"
 
 echo "  dpow_general:"
-cat ../m_notary_run| grep dpow | awk -F '--data ' '{print $2}' | sed 's/{//g;s/"//g;s/}//g;s/:/ : /g;s/\\//g;s/KMD/$assetchain/g;  s/,/\n    /g;s/^/    /g'
+cat ../m_notary_run| grep dpow | awk -F '--data ' '{print $2}' | sed 's/{//g;s/"//g;s/}//g;s/:/: /g;s/\\//g;s/KMD/$assetchain/g;  s/,/\n    /g;s/^/    /g'
 
 echo "assetchains:"
 for coin in `ls -1 *_7776`; do
