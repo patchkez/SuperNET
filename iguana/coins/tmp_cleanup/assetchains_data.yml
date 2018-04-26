@@ -37,7 +37,7 @@ misc_methods:
     agent: bitcoinrpc
     method: encryptwallet
     passphrase: $passphrase
-  walet_passphrase:
+  wallet_passphrase:
     method: walletpassphrase
     params:
       - $passphrase

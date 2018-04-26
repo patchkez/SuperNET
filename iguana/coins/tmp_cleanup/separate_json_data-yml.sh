@@ -42,7 +42,7 @@ done
 echo "  encrypt_wallet:"
 echo "{\"agent\":\"bitcoinrpc\",\"method\":\"encryptwallet\",\"passphrase\":\"\$passphrase\"}" | sed 's/{"//g;s/"//g;s/}//g;s/:/: /g;s/,/\n    /g;s/^/    /g'
 
-echo "  walet_passphrase:"
+echo "  wallet_passphrase:"
 #echo "{\"method\":\"walletpassphrase\",\"params\":[\"\$passphrase\", 9999999]}" | sed 's/{"//g;s/"//g;s/}//g;s/:/ : /g;s/, /  /g;s/,/\n    /g;s/^/    /g'
 echo "    method: walletpassphrase
     params:
