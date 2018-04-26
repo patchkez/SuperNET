@@ -1,3 +1,52 @@
+check_my_ip: checkip.amazonaws.com
+misc_methods:
+  supernet_myip:
+    agent : SuperNET
+    method : myipaddr
+    ipaddr : $myip
+  notaries:
+    notary1:
+      agent : iguana
+      method : addnotary
+      ipaddr : 78.47.196.146
+    notary2:
+      agent : iguana
+      method : addnotary
+      ipaddr : 149.56.29.163
+    notary3:
+      agent : iguana
+      method : addnotary
+      ipaddr : 191.235.80.138
+    notary4:
+      agent : iguana
+      method : addnotary
+      ipaddr : 52.72.135.200
+    notary5:
+      agent : iguana
+      method : addnotary
+      ipaddr : 94.102.63.226
+    notary6:
+      agent : iguana
+      method : addnotary
+      ipaddr : 129.232.225.202
+    notary7:
+      agent : iguana
+      method : addnotary
+      ipaddr : 104.255.64.3
+  encrypt_wallet:
+    agent : bitcoinrpc
+    method : encryptwallet
+    passphrase : $passphrase
+  walet_passphrase:
+    method: walletpassphrase
+    params:
+      - $passphrase
+      - 9999999
+  dpow_general:
+    agent : iguana
+    method : dpow
+    symbol : $assetchain
+    pubkey : $pubkey
 assetchains:
   AXO:
     iguana_payload:
