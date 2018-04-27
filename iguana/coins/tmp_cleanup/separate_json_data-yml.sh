@@ -20,7 +20,9 @@ IFS='
 '
 
 SUPPLIES=(`curl $URL -s | grep "^komodo_asset" | awk '{print $2 " " $3 }'`)
+SEED_IP=`curl $URL -s | grep "^seed_ip" | sed 's/^.*hosts \(.[^ ]*\).*$/\1/g'`
 
+echo "seed_ip: ${SEED_IP}"
 echo "check_my_ip: checkip.amazonaws.com"
 echo "misc_methods:"
 echo "  supernet_myip":
