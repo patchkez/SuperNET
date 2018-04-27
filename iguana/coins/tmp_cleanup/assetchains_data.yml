@@ -51,7 +51,7 @@ assetchains:
   AXO:
     iguana_payload:
       conf: AXO.conf
-      path: ${HOME#"/"}/.komodo/AXO
+      path: ${HOME#/}/.komodo/AXO
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -122,7 +122,7 @@ assetchains:
   BET:
     iguana_payload:
       conf: BET.conf
-      path: ${HOME#"/"}/.komodo/BET
+      path: ${HOME#/}/.komodo/BET
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -193,7 +193,7 @@ assetchains:
   BNTN:
     iguana_payload:
       conf: BNTN.conf
-      path: ${HOME#"/"}/.komodo/BNTN
+      path: ${HOME#/}/.komodo/BNTN
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -264,7 +264,7 @@ assetchains:
   BOTS:
     iguana_payload:
       conf: BOTS.conf
-      path: ${HOME#"/"}/.komodo/BOTS
+      path: ${HOME#/}/.komodo/BOTS
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -335,7 +335,7 @@ assetchains:
   BTC:
     iguana_payload:
       conf: bitcoin.conf
-      path: ${HOME#"/"}/.bitcoin
+      path: ${HOME#/}/.bitcoin
       prefetchlag: -1
       poll: 1
       active: 1
@@ -355,7 +355,7 @@ assetchains:
   BTCH:
     iguana_payload:
       conf: BTCH.conf
-      path: ${HOME#"/"}/.komodo/BTCH
+      path: ${HOME#/}/.komodo/BTCH
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -426,7 +426,7 @@ assetchains:
   CEAL:
     iguana_payload:
       conf: CEAL.conf
-      path: ${HOME#"/"}/.komodo/CEAL
+      path: ${HOME#/}/.komodo/CEAL
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -497,7 +497,7 @@ assetchains:
   CHAIN:
     iguana_payload:
       conf: CHAIN.conf
-      path: ${HOME#"/"}/.komodo/CHAIN
+      path: ${HOME#/}/.komodo/CHAIN
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -568,7 +568,7 @@ assetchains:
   CHIPS:
     iguana_payload:
       conf: chips.conf
-      path: ${HOME#"/"}/.chips
+      path: ${HOME#/}/.chips
       prefetchlag: -1
       poll: 1
       active: 1
@@ -591,7 +591,7 @@ assetchains:
   COQUI:
     iguana_payload:
       conf: COQUI.conf
-      path: ${HOME#"/"}/.komodo/COQUI
+      path: ${HOME#/}/.komodo/COQUI
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -662,7 +662,7 @@ assetchains:
   CRYPTO:
     iguana_payload:
       conf: CRYPTO.conf
-      path: ${HOME#"/"}/.komodo/CRYPTO
+      path: ${HOME#/}/.komodo/CRYPTO
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -733,7 +733,7 @@ assetchains:
   DEX:
     iguana_payload:
       conf: DEX.conf
-      path: ${HOME#"/"}/.komodo/DEX
+      path: ${HOME#/}/.komodo/DEX
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -804,7 +804,7 @@ assetchains:
   ETOMIC:
     iguana_payload:
       conf: ETOMIC.conf
-      path: ${HOME#"/"}/.komodo/ETOMIC
+      path: ${HOME#/}/.komodo/ETOMIC
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -875,7 +875,7 @@ assetchains:
   HODL:
     iguana_payload:
       conf: HODL.conf
-      path: ${HOME#"/"}/.komodo/HODL
+      path: ${HOME#/}/.komodo/HODL
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -946,7 +946,7 @@ assetchains:
   JUMBLR:
     iguana_payload:
       conf: JUMBLR.conf
-      path: ${HOME#"/"}/.komodo/JUMBLR
+      path: ${HOME#/}/.komodo/JUMBLR
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1017,7 +1017,7 @@ assetchains:
   KMD:
     iguana_payload:
       conf: komodo.conf
-      path: ${HOME#"/"}/.komodo
+      path: ${HOME#/}/.komodo
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1088,7 +1088,7 @@ assetchains:
   KV:
     iguana_payload:
       conf: KV.conf
-      path: ${HOME#"/"}/.komodo/KV
+      path: ${HOME#/}/.komodo/KV
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1159,7 +1159,7 @@ assetchains:
   LTC:
     iguana_payload:
       conf: litecoin.conf
-      path: ${HOME#"/"}/.litecoin
+      path: ${HOME#/}/.litecoin
       RELAY: -1
       VALIDATE: 0
       prefetchlag: -1
@@ -1199,7 +1199,7 @@ assetchains:
   MESH:
     iguana_payload:
       conf: MESH.conf
-      path: ${HOME#"/"}/.komodo/MESH
+      path: ${HOME#/}/.komodo/MESH
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1270,7 +1270,7 @@ assetchains:
   MGW:
     iguana_payload:
       conf: MGW.conf
-      path: ${HOME#"/"}/.komodo/MGW
+      path: ${HOME#/}/.komodo/MGW
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1341,7 +1341,7 @@ assetchains:
   MNZ:
     iguana_payload:
       conf: MNZ.conf
-      path: ${HOME#"/"}/.komodo/MNZ
+      path: ${HOME#/}/.komodo/MNZ
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1412,7 +1412,7 @@ assetchains:
   MSHARK:
     iguana_payload:
       conf: MSHARK.conf
-      path: ${HOME#"/"}/.komodo/MSHARK
+      path: ${HOME#/}/.komodo/MSHARK
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1483,7 +1483,7 @@ assetchains:
   MVP:
     iguana_payload:
       conf: MVP.conf
-      path: ${HOME#"/"}/.komodo/MVP
+      path: ${HOME#/}/.komodo/MVP
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1555,7 +1555,7 @@ assetchains:
   NINJA:
     iguana_payload:
       conf: NINJA.conf
-      path: ${HOME#"/"}/.komodo/NINJA
+      path: ${HOME#/}/.komodo/NINJA
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1626,7 +1626,7 @@ assetchains:
   OOT:
     iguana_payload:
       conf: OOT.conf
-      path: ${HOME#"/"}/.komodo/OOT
+      path: ${HOME#/}/.komodo/OOT
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1697,7 +1697,7 @@ assetchains:
   PANGEA:
     iguana_payload:
       conf: PANGEA.conf
-      path: ${HOME#"/"}/.komodo/PANGEA
+      path: ${HOME#/}/.komodo/PANGEA
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1768,7 +1768,7 @@ assetchains:
   PRLPAY:
     iguana_payload:
       conf: PRLPAY.conf
-      path: ${HOME#"/"}/.komodo/PRLPAY
+      path: ${HOME#/}/.komodo/PRLPAY
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1839,7 +1839,7 @@ assetchains:
   REVS:
     iguana_payload:
       conf: REVS.conf
-      path: ${HOME#"/"}/.komodo/REVS
+      path: ${HOME#/}/.komodo/REVS
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1910,7 +1910,7 @@ assetchains:
   SHARK:
     iguana_payload:
       conf: SHARK.conf
-      path: ${HOME#"/"}/.komodo/SHARK
+      path: ${HOME#/}/.komodo/SHARK
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1982,7 +1982,7 @@ assetchains:
   SUPERNET:
     iguana_payload:
       conf: SUPERNET.conf
-      path: ${HOME#"/"}/.komodo/SUPERNET
+      path: ${HOME#/}/.komodo/SUPERNET
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2053,7 +2053,7 @@ assetchains:
   VOTE2018:
     iguana_payload:
       conf: VOTE2018.conf
-      path: ${HOME#"/"}/.komodo/VOTE2018
+      path: ${HOME#/}/.komodo/VOTE2018
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2124,7 +2124,7 @@ assetchains:
   VOTE:
     iguana_payload:
       conf: VOTE.conf
-      path: ${HOME#"/"}/.komodo/VOTE
+      path: ${HOME#/}/.komodo/VOTE
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2196,7 +2196,7 @@ assetchains:
   WLC:
     iguana_payload:
       conf: WLC.conf
-      path: ${HOME#"/"}/.komodo/WLC
+      path: ${HOME#/}/.komodo/WLC
       unitval: 20
       zcash: 1
       RELAY: -1

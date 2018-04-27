@@ -66,6 +66,7 @@ for coin in `ls -1 *_7776`; do
 	    -e 's/:/: /g' \
 	    -e 's/"{//g' \
 	    -e 's/}"//g' \
+	    -e 's/"\/"/\//g' \
 	    -e 's/^/      /g' | \
   sed -e '/genesis: /{
       $!{N;N;N;N;
