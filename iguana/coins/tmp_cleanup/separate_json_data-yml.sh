@@ -30,6 +30,12 @@ echo "  supernet_myip":
 cat ../m_notary_run | grep SuperNET | grep myipaddr | awk -F "--data " '{print $2}' | sed -e 's/\\"//g;s/"{//g;s/}"//g;s/,/\n    /g;s/^/    /g;s/:/: /g'
 
 
+# Dpow method
+echo "  dpow:"
+cat ..//m_notary_run | grep dpow | uniq | awk -F '--data "{' '{print $2}' | sed 's/{"//g;s/"//g;s/}//g;s/:/: /g;s/\\//g;s/KMD/$symbol/g;s/,/\n    /g;s/^/    /g'
+
+
+
 # Notaries IPs
 echo "  notaries:"
 INDEX=1

@@ -5,6 +5,11 @@ misc_methods:
     agent: SuperNET
     method: myipaddr
     ipaddr: $myip
+  dpow:
+    agent: iguana
+    method: dpow
+    symbol: $symbol
+    pubkey: $pubkey
   notaries:
     notary1:
       agent: iguana
