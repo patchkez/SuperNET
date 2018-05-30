@@ -3,7 +3,8 @@ path="../"
 data="${path}/methods"
 
 
-URL="https://raw.githubusercontent.com/jl777/komodo/beta/src/assetchains"
+#URL="https://raw.githubusercontent.com/jl777/komodo/beta/src/assetchains"
+URL="https://raw.githubusercontent.com/jl777/komodo/dev/src/assetchains"
 
 cd $path
 
