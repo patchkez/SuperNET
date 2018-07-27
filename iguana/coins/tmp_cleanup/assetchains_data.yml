@@ -2484,7 +2484,7 @@ assetchains:
   SEC:
     iguana_payload:
       conf: SEC.conf
-      path: home/.komodo/SEC
+      path: home/iguana/.komodo/SEC
       unitval: 20
       zcash: 1
       RELAY: -1
