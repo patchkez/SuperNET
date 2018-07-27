@@ -1134,10 +1134,10 @@ assetchains:
       genesishash: 91ec5f25ee9a0ffa1af7d4da4db9a552228dd2dc77cdb15b738be4e1f55f30ee
       genesis:
         hashalgo: scrypt
-            version: 1
-            timestamp: 1392757140
-            nBits: 1e0ffff0
-            nonce: 2084565393
+        version: 1
+        timestamp: 1392757140
+        nBits: 1e0ffff0
+        nonce: 2084565393
         merkle_root: d849db99a14164f4b4c8ad6d2d8d7e2b1ba7f89963e9f4bf9fad5ff1a4754429
       alertpubkey: 04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284
       auxpow: 1
