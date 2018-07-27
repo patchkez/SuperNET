@@ -57,7 +57,7 @@ assetchains:
   AXO:
     iguana_payload:
       conf: AXO.conf
-      path: ${HOME#/}/.komodo/AXO
+      path: home/iguana/.komodo/AXO
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -124,11 +124,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 200000000
+    supply:
+
   BEER:
     iguana_payload:
       conf: BEER.conf
-      path: ${HOME#/}/.komodo/BEER
+      path: home/iguana/.komodo/BEER
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -195,11 +196,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 100000000
+    supply:
+
   BET:
     iguana_payload:
       conf: BET.conf
-      path: ${HOME#/}/.komodo/BET
+      path: home/iguana/.komodo/BET
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -266,11 +268,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   BNTN:
     iguana_payload:
       conf: BNTN.conf
-      path: ${HOME#/}/.komodo/BNTN
+      path: home/iguana/.komodo/BNTN
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -337,11 +340,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 500000000
+    supply:
+
   BOTS:
     iguana_payload:
       conf: BOTS.conf
-      path: ${HOME#/}/.komodo/BOTS
+      path: home/iguana/.komodo/BOTS
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -408,11 +412,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   BTC:
     iguana_payload:
       conf: bitcoin.conf
-      path: ${HOME#/}/.bitcoin
+      path: home/iguana/.bitcoin
       prefetchlag: -1
       poll: 1
       active: 1
@@ -432,7 +437,7 @@ assetchains:
   BTCH:
     iguana_payload:
       conf: BTCH.conf
-      path: ${HOME#/}/.komodo/BTCH
+      path: home/iguana/.komodo/BTCH
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -499,11 +504,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 20998641
+    supply:
+
   CEAL:
     iguana_payload:
       conf: CEAL.conf
-      path: ${HOME#/}/.komodo/CEAL
+      path: home/iguana/.komodo/CEAL
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -570,11 +576,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 366666666
+    supply:
+
   CHAIN:
     iguana_payload:
       conf: CHAIN.conf
-      path: ${HOME#/}/.komodo/CHAIN
+      path: home/iguana/.komodo/CHAIN
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -641,11 +648,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   CHIPS:
     iguana_payload:
       conf: chips.conf
-      path: ${HOME#/}/.chips
+      path: home/iguana/.chips
       prefetchlag: -1
       poll: 1
       active: 1
@@ -668,7 +676,7 @@ assetchains:
   COQUI:
     iguana_payload:
       conf: COQUI.conf
-      path: ${HOME#/}/.komodo/COQUI
+      path: home/iguana/.komodo/COQUI
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -735,11 +743,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 72000000
+    supply:
+
   CRYPTO:
     iguana_payload:
       conf: CRYPTO.conf
-      path: ${HOME#/}/.komodo/CRYPTO
+      path: home/iguana/.komodo/CRYPTO
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -806,11 +815,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   DEX:
     iguana_payload:
       conf: DEX.conf
-      path: ${HOME#/}/.komodo/DEX
+      path: home/iguana/.komodo/DEX
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -877,11 +887,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   DSEC:
     iguana_payload:
       conf: DSEC.conf
-      path: ${HOME#/}/.komodo/DSEC
+      path: home/iguana/.komodo/DSEC
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -948,11 +959,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 7000000
+    supply:
+
   EQL:
     iguana_payload:
       conf: EQL.conf
-      path: ${HOME#/}/.komodo/EQL
+      path: home/iguana/.komodo/EQL
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1019,11 +1031,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 500000000
+    supply:
+
   ETOMIC:
     iguana_payload:
       conf: ETOMIC.conf
-      path: ${HOME#/}/.komodo/ETOMIC
+      path: home/iguana/.komodo/ETOMIC
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1090,12 +1103,13 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 100000000
+    supply:
+
   GAME:
     iguana_payload:
       txfee: 0.01
       conf: gamecredits.conf
-      path: ${HOME#/}/.gamecredits
+      path: home/iguana/.gamecredits
       startpend: 8
       endpend: 4
       services: 129
@@ -1120,10 +1134,10 @@ assetchains:
       genesishash: 91ec5f25ee9a0ffa1af7d4da4db9a552228dd2dc77cdb15b738be4e1f55f30ee
       genesis:
         hashalgo: scrypt
-        version: 1
-        timestamp: 1392757140
-        nBits: 1e0ffff0
-        nonce: 2084565393
+            version: 1
+            timestamp: 1392757140
+            nBits: 1e0ffff0
+            nonce: 2084565393
         merkle_root: d849db99a14164f4b4c8ad6d2d8d7e2b1ba7f89963e9f4bf9fad5ff1a4754429
       alertpubkey: 04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284
       auxpow: 1
@@ -1135,7 +1149,7 @@ assetchains:
   GLXT:
     iguana_payload:
       conf: GLXT.conf
-      path: ${HOME#/}/.komodo/GLXT
+      path: home/iguana/.komodo/GLXT
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1202,11 +1216,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 100000000
+    supply:
+
   HODL:
     iguana_payload:
       conf: HODL.conf
-      path: ${HOME#/}/.komodo/HODL
+      path: home/iguana/.komodo/HODL
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1273,11 +1288,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 9999999
+    supply:
+
   JUMBLR:
     iguana_payload:
       conf: JUMBLR.conf
-      path: ${HOME#/}/.komodo/JUMBLR
+      path: home/iguana/.komodo/JUMBLR
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1344,11 +1360,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   KMD:
     iguana_payload:
       conf: komodo.conf
-      path: ${HOME#/}/.komodo
+      path: home/iguana/.komodo
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1419,7 +1436,7 @@ assetchains:
   KV:
     iguana_payload:
       conf: KV.conf
-      path: ${HOME#/}/.komodo/KV
+      path: home/iguana/.komodo/KV
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1486,11 +1503,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 1000000
+    supply:
+
   LTC:
     iguana_payload:
       conf: litecoin.conf
-      path: ${HOME#/}/.litecoin
+      path: home/iguana/.litecoin
       RELAY: -1
       VALIDATE: 0
       prefetchlag: -1
@@ -1530,7 +1548,7 @@ assetchains:
   MESH:
     iguana_payload:
       conf: MESH.conf
-      path: ${HOME#/}/.komodo/MESH
+      path: home/iguana/.komodo/MESH
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1597,11 +1615,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 1000007
+    supply:
+
   MGW:
     iguana_payload:
       conf: MGW.conf
-      path: ${HOME#/}/.komodo/MGW
+      path: home/iguana/.komodo/MGW
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1668,11 +1687,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   MNZ:
     iguana_payload:
       conf: MNZ.conf
-      path: ${HOME#/}/.komodo/MNZ
+      path: home/iguana/.komodo/MNZ
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1739,11 +1759,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 257142858
+    supply:
+
   MSHARK:
     iguana_payload:
       conf: MSHARK.conf
-      path: ${HOME#/}/.komodo/MSHARK
+      path: home/iguana/.komodo/MSHARK
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1810,11 +1831,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 1400000
+    supply:
+
   MVP:
     iguana_payload:
       conf: MVP.conf
-      path: ${HOME#/}/.komodo/MVP
+      path: home/iguana/.komodo/MVP
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1886,7 +1908,7 @@ assetchains:
   NINJA:
     iguana_payload:
       conf: NINJA.conf
-      path: ${HOME#/}/.komodo/NINJA
+      path: home/iguana/.komodo/NINJA
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -1953,11 +1975,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 192.241.134.19
-    supply: 100000000
+    supply:
+
   OOT:
     iguana_payload:
       conf: OOT.conf
-      path: ${HOME#/}/.komodo/OOT
+      path: home/iguana/.komodo/OOT
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2024,11 +2047,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 216000000
+    supply:
+
   PANGEA:
     iguana_payload:
       conf: PANGEA.conf
-      path: ${HOME#/}/.komodo/PANGEA
+      path: home/iguana/.komodo/PANGEA
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2095,11 +2119,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 999999
+    supply:
+
   PIZZA:
     iguana_payload:
       conf: PIZZA.conf
-      path: ${HOME#/}/.komodo/PIZZA
+      path: home/iguana/.komodo/PIZZA
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2166,11 +2191,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 100000000
+    supply:
+
   PRLPAY:
     iguana_payload:
       conf: PRLPAY.conf
-      path: ${HOME#/}/.komodo/PRLPAY
+      path: home/.komodo/PRLPAY
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2237,11 +2263,84 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 500000000
+    supply:
+
+  PRLPLAY:
+    iguana_payload:
+      conf: PRLPAY.conf
+      path: home/iguana/.komodo/PRLPAY
+      unitval: 20
+      zcash: 1
+      RELAY: -1
+      VALIDATE: 0
+      prefetchlag: -1
+      poll: 100
+      active: 1
+      agent: iguana
+      method: addcoin
+      startpend: 4
+      endpend: 4
+      services: 129
+      maxpeers: 8
+      newcoin: PRLPAY
+      name: PRLPAY
+      hasheaders: 1
+      useaddmultisig: 0
+      netmagic: c58af861
+      p2p: 9678
+      rpc: 9679
+      pubval: 60
+      p2shval: 85
+      wifval: 188
+      txfee_satoshis: 10000
+      isPoS: 0
+      minoutput: 10000
+      minconfirms: 2
+      genesishash: 027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71
+      protover: 170002
+      genesisblock:
+        "0100000000000000000000000000000000000000000000000000000000000\
+        000000000003ba3edfd7a7b12b27ac72c3e67768f617fc81bc3888a51323a9fb8aa4b1e5e4a000000000000000\
+        000000000000000000000000000000000000000000000000029ab5f490f0f0f200b00000000000000000000000\
+        000000000000000000000000000000000000000fd4005000d5ba7cda5d473947263bf194285317179d2b0d3071\
+        19c2e7cc4bd8ac456f0774bd52b0cd9249be9d40718b6397a4c7bbd8f2b3272fed2823cd2af4bd1632200ba4bf\
+        796727d6347b225f670f292343274cc35099466f5fb5f0cd1c105121b28213d15db2ed7bdba490b4cedc69742a\
+        57b7c25af24485e523aadbb77a0144fc76f79ef73bd8530d42b9f3b9bed1c135ad1fe152923fafe98f95f76f16\
+        15e64c4abb1137f4c31b218ba2782bc15534788dda2cc08a0ee2987c8b27ff41bd4e31cd5fb5643dfe862c9a02\
+        ca9f90c8c51a6671d681d04ad47e4b53b1518d4befafefe8cadfb912f3d03051b1efbf1dfe37b56e93a741d8df\
+        d80d576ca250bee55fab1311fc7b3255977558cdda6f7d6f875306e43a14413facdaed2f46093e0ef1e8f8a963\
+        e1632dcbeebd8e49fd16b57d49b08f9762de89157c65233f60c8e38a1f503a48c555f8ec45dedecd574a376013\
+        23c27be597b956343107f8bd80f3a925afaf30811df83c402116bb9c1e5231c70fff899a7c82f73c902ba54da5\
+        3cc459b7bf1113db65cc8f6914d3618560ea69abd13658fa7b6af92d374d6eca9529f8bd565166e4fcbf2a8dfb\
+        3c9b69539d4d2ee2e9321b85b331925df195915f2757637c2805e1d4131e1ad9ef9bc1bb1c732d8dba4738716d\
+        351ab30c996c8657bab39567ee3b29c6d054b711495c0d52e1cd5d8e55b4f0f0325b97369280755b46a02afd54\
+        be4ddd9f77c22272b8bbb17ff5118fedbae2564524e797bd28b5f74f7079d532ccc059807989f94d267f47e724\
+        b3f1ecfe00ec9e6541c961080d8891251b84b4480bc292f6a180bea089fef5bbda56e1e41390d7c0e85ba0ef53\
+        0f7177413481a226465a36ef6afe1e2bca69d2078712b3912bba1a99b1fbff0d355d6ffe726d2bb6fbc103c4ac\
+        5756e5bee6e47e17424ebcbf1b63d8cb90ce2e40198b4f4198689daea254307e52a25562f4c1455340f0ffeb10\
+        f9d8e914775e37d0edca019fb1b9c6ef81255ed86bc51c5391e0591480f66e2d88c5f4fd7277697968656a9b11\
+        3ab97f874fdd5f2465e5559533e01ba13ef4a8f7a21d02c30c8ded68e8c54603ab9c8084ef6d9eb4e92c75b078\
+        539e2ae786ebab6dab73a09e0aa9ac575bcefb29e930ae656e58bcb513f7e3c17e079dce4f05b5dbc18c2a872b\
+        22509740ebe6a3903e00ad1abc55076441862643f93606e3dc35e8d9f2caef3ee6be14d513b2e062b21d0061de\
+        3bd56881713a1a5c17f5ace05e1ec09da53f99442df175a49bd154aa96e4949decd52fed79ccf7ccbce3294141\
+        9c314e374e4a396ac553e17b5340336a1a25c22f9e42a243ba5404450b650acfc826a6e432971ace776e157195\
+        15e1634ceb9a4a35061b668c74998d3dfb5827f6238ec015377e6f9c94f38108768cf6e5c8b132e0303fb5a200\
+        368f845ad9d46343035a6ff94031df8d8309415bb3f6cd5ede9c135fdabcc030599858d803c0f85be7661c8898\
+        4d88faa3d26fb0e9aac0056a53f1b5d0baed713c853c4a2726869a0a124a8a5bbc0fc0ef80c8ae4cb53636aa02\
+        503b86a1eb9836fcc259823e2692d921d88e1ffc1e6cb2bde43939ceb3f32a611686f539f8f7c9f0bf00381f74\
+        3607d40960f06d347d1cd8ac8a51969c25e37150efdf7aa4c2037a2fd0516fb444525ab157a0ed0a7412b2fa69\
+        b217fe397263153782c0f64351fbdf2678fa0dc8569912dcd8e3ccad38f34f23bbbce14c6a26ac24911b308b82\
+        c7e43062d180baeac4ba7153858365c72c63dcf5f6a5b08070b730adb017aeae925b7d0439979e2679f45ed2f2\
+        5a7edcfd2fb77a8794630285ccb0a071f5cce410b46dbf9750b0354aae8b65574501cc69efb5b6a43444074fee\
+        116641bb29da56c2b4a7f456991fc92b2"
+      debug: 0
+      seedipaddr: 78.47.196.146
+    supply:
+
   REVS:
     iguana_payload:
       conf: REVS.conf
-      path: ${HOME#/}/.komodo/REVS
+      path: home/iguana/.komodo/REVS
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2308,11 +2407,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 1300000
+    supply:
+
   RFOX:
     iguana_payload:
       conf: RFOX.conf
-      path: ${HOME#/}/.komodo/RFOX
+      path: home/iguana/.komodo/RFOX
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2381,10 +2481,82 @@ assetchains:
       seedipaddr: 78.47.196.146
     supply:
 
+  SEC:
+    iguana_payload:
+      conf: SEC.conf
+      path: home/.komodo/SEC
+      unitval: 20
+      zcash: 1
+      RELAY: -1
+      VALIDATE: 0
+      prefetchlag: -1
+      poll: 100
+      active: 1
+      agent: iguana
+      method: addcoin
+      startpend: 4
+      endpend: 4
+      services: 129
+      maxpeers: 8
+      newcoin: SEC
+      name: SEC
+      hasheaders: 1
+      useaddmultisig: 0
+      netmagic: 8f27938c
+      p2p: 11539
+      rpc: 11540
+      pubval: 60
+      p2shval: 85
+      wifval: 188
+      txfee_satoshis: 10000
+      isPoS: 0
+      minoutput: 10000
+      minconfirms: 2
+      genesishash: 027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71
+      protover: 170002
+      genesisblock:
+        "0100000000000000000000000000000000000000000000000000000000000\
+        000000000003ba3edfd7a7b12b27ac72c3e67768f617fc81bc3888a51323a9fb8aa4b1e5e4a000000000000000\
+        000000000000000000000000000000000000000000000000029ab5f490f0f0f200b00000000000000000000000\
+        000000000000000000000000000000000000000fd4005000d5ba7cda5d473947263bf194285317179d2b0d3071\
+        19c2e7cc4bd8ac456f0774bd52b0cd9249be9d40718b6397a4c7bbd8f2b3272fed2823cd2af4bd1632200ba4bf\
+        796727d6347b225f670f292343274cc35099466f5fb5f0cd1c105121b28213d15db2ed7bdba490b4cedc69742a\
+        57b7c25af24485e523aadbb77a0144fc76f79ef73bd8530d42b9f3b9bed1c135ad1fe152923fafe98f95f76f16\
+        15e64c4abb1137f4c31b218ba2782bc15534788dda2cc08a0ee2987c8b27ff41bd4e31cd5fb5643dfe862c9a02\
+        ca9f90c8c51a6671d681d04ad47e4b53b1518d4befafefe8cadfb912f3d03051b1efbf1dfe37b56e93a741d8df\
+        d80d576ca250bee55fab1311fc7b3255977558cdda6f7d6f875306e43a14413facdaed2f46093e0ef1e8f8a963\
+        e1632dcbeebd8e49fd16b57d49b08f9762de89157c65233f60c8e38a1f503a48c555f8ec45dedecd574a376013\
+        23c27be597b956343107f8bd80f3a925afaf30811df83c402116bb9c1e5231c70fff899a7c82f73c902ba54da5\
+        3cc459b7bf1113db65cc8f6914d3618560ea69abd13658fa7b6af92d374d6eca9529f8bd565166e4fcbf2a8dfb\
+        3c9b69539d4d2ee2e9321b85b331925df195915f2757637c2805e1d4131e1ad9ef9bc1bb1c732d8dba4738716d\
+        351ab30c996c8657bab39567ee3b29c6d054b711495c0d52e1cd5d8e55b4f0f0325b97369280755b46a02afd54\
+        be4ddd9f77c22272b8bbb17ff5118fedbae2564524e797bd28b5f74f7079d532ccc059807989f94d267f47e724\
+        b3f1ecfe00ec9e6541c961080d8891251b84b4480bc292f6a180bea089fef5bbda56e1e41390d7c0e85ba0ef53\
+        0f7177413481a226465a36ef6afe1e2bca69d2078712b3912bba1a99b1fbff0d355d6ffe726d2bb6fbc103c4ac\
+        5756e5bee6e47e17424ebcbf1b63d8cb90ce2e40198b4f4198689daea254307e52a25562f4c1455340f0ffeb10\
+        f9d8e914775e37d0edca019fb1b9c6ef81255ed86bc51c5391e0591480f66e2d88c5f4fd7277697968656a9b11\
+        3ab97f874fdd5f2465e5559533e01ba13ef4a8f7a21d02c30c8ded68e8c54603ab9c8084ef6d9eb4e92c75b078\
+        539e2ae786ebab6dab73a09e0aa9ac575bcefb29e930ae656e58bcb513f7e3c17e079dce4f05b5dbc18c2a872b\
+        22509740ebe6a3903e00ad1abc55076441862643f93606e3dc35e8d9f2caef3ee6be14d513b2e062b21d0061de\
+        3bd56881713a1a5c17f5ace05e1ec09da53f99442df175a49bd154aa96e4949decd52fed79ccf7ccbce3294141\
+        9c314e374e4a396ac553e17b5340336a1a25c22f9e42a243ba5404450b650acfc826a6e432971ace776e157195\
+        15e1634ceb9a4a35061b668c74998d3dfb5827f6238ec015377e6f9c94f38108768cf6e5c8b132e0303fb5a200\
+        368f845ad9d46343035a6ff94031df8d8309415bb3f6cd5ede9c135fdabcc030599858d803c0f85be7661c8898\
+        4d88faa3d26fb0e9aac0056a53f1b5d0baed713c853c4a2726869a0a124a8a5bbc0fc0ef80c8ae4cb53636aa02\
+        503b86a1eb9836fcc259823e2692d921d88e1ffc1e6cb2bde43939ceb3f32a611686f539f8f7c9f0bf00381f74\
+        3607d40960f06d347d1cd8ac8a51969c25e37150efdf7aa4c2037a2fd0516fb444525ab157a0ed0a7412b2fa69\
+        b217fe397263153782c0f64351fbdf2678fa0dc8569912dcd8e3ccad38f34f23bbbce14c6a26ac24911b308b82\
+        c7e43062d180baeac4ba7153858365c72c63dcf5f6a5b08070b730adb017aeae925b7d0439979e2679f45ed2f2\
+        5a7edcfd2fb77a8794630285ccb0a071f5cce410b46dbf9750b0354aae8b65574501cc69efb5b6a43444074fee\
+        116641bb29da56c2b4a7f456991fc92b2"
+      debug: 0
+      seedipaddr: 185.148.145.43
+    supply:
+
   SHARK:
     iguana_payload:
       conf: SHARK.conf
-      path: ${HOME#/}/.komodo/SHARK
+      path: home/iguana/.komodo/SHARK
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2456,7 +2628,7 @@ assetchains:
   SUPERNET:
     iguana_payload:
       conf: SUPERNET.conf
-      path: ${HOME#/}/.komodo/SUPERNET
+      path: home/iguana/.komodo/SUPERNET
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2523,11 +2695,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 816061
+    supply:
+
   VOTE2018:
     iguana_payload:
       conf: VOTE2018.conf
-      path: ${HOME#/}/.komodo/VOTE2018
+      path: home/iguana/.komodo/VOTE2018
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2599,7 +2772,7 @@ assetchains:
   VOTE:
     iguana_payload:
       conf: VOTE.conf
-      path: ${HOME#/}/.komodo/VOTE
+      path: home/iguana/.komodo/VOTE
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2671,7 +2844,7 @@ assetchains:
   VRSC:
     iguana_payload:
       conf: VRSC.conf
-      path: ${HOME#/}/.komodo/VRSC
+      path: home/iguana/.komodo/VRSC
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2743,7 +2916,7 @@ assetchains:
   WLC:
     iguana_payload:
       conf: WLC.conf
-      path: ${HOME#/}/.komodo/WLC
+      path: home/iguana/.komodo/WLC
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2810,11 +2983,12 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 78.47.196.146
-    supply: 210000000
+    supply:
+
   ZILLA:
     iguana_payload:
       conf: ZILLA.conf
-      path: ${HOME#/}/.komodo/ZILLA
+      path: home/iguana/.komodo/ZILLA
       unitval: 20
       zcash: 1
       RELAY: -1
@@ -2881,4 +3055,5 @@ assetchains:
         116641bb29da56c2b4a7f456991fc92b2"
       debug: 0
       seedipaddr: 54.39.23.248
-    supply: 11000000
+    supply:
+
