@@ -240,7 +240,7 @@ void set_coinconfname(char *fname,char *coinstr,char *userhome,char *coindir,cha
         sprintf(fname,"%s/%s/%s",userhome,coindir,confname);
 }
 
-uint16_t extract_userpass(char *serverport,char *userpass,char *coinstr,char *userhome,char *coindir,char *confname)
+uint16_t extract_userpass(char *serverport,char *userpass,char *coinstr,char *userhome,char *coindir,char *confname, cJSON *argjson)
 {
     FILE *fp; uint16_t port = 0;
     char fname[2048],line[1024],*rpcuser,*rpcpassword,*rpcport,*str;
@@ -249,7 +249,7 @@ uint16_t extract_userpass(char *serverport,char *userpass,char *coinstr,char *us
     serverport[0] = userpass[0] = 0;
     set_coinconfname(fname,coinstr,userhome,coindir,confname);
     printf("set_coinconfname.(%s) <- (%s)\n",fname,confname);
-    if ( (fp= fopen(OS_compatible_path(fname),"r")) != 0 )
+    if ( (fp= fopen(OS_compatible_path(fname),"r")) != 0 && (jstr(argjson,"rpcuser") == 0 || jstr(argjson,"rpcpassword") == 0) )
     {
         if ( Debuglevel > 1 )
             printf("extract_userpass from (%s)\n",fname);
@@ -285,7 +285,22 @@ uint16_t extract_userpass(char *serverport,char *userpass,char *coinstr,char *us
         if ( rpcpassword != 0 )
             free(rpcpassword);
         fclose(fp);
-    } else printf("extract_userpass cant open.(%s)\n",fname);
+    }
+    else if ( (fp= fopen(OS_compatible_path(fname),"r")) == 0  && jstr(argjson,"rpcuser") != 0 && jstr(argjson,"rpcpassword") != 0)
+    {
+        rpcuser = jstr(argjson,"rpcuser");
+        rpcpassword = jstr(argjson,"rpcpassword");
+        if ( rpcuser != 0 && rpcpassword != 0 )
+        {
+            if ( userpass[0] == 0 )
+                sprintf(userpass,"%s:%s",rpcuser,rpcpassword);
+        }
+        if ( rpcuser != 0 )
+            free(rpcuser);
+        if ( rpcpassword != 0 )
+            free(rpcpassword);
+    }
+    else printf("extract_userpass cant open.(%s)\n",fname);
     return(port);
 }
 
@@ -319,7 +334,7 @@ void iguana_chainparms(struct supernet_info *myinfo,struct iguana_chain *chain,c
         if ( chain->txfee == 0 )
             chain->txfee = (uint64_t)(SATOSHIDEN * jdouble(argjson,"txfee"));
         chain->use_addmultisig = juint(argjson,"useaddmultisig");
-        if ( (port= extract_userpass(chain->serverport,chain->userpass,chain->symbol,chain->userhome,path,conf)) != 0 )
+        if ( (port= extract_userpass(chain->serverport,chain->userpass,chain->symbol,chain->userhome,path,conf,argjson)) != 0 )
             chain->rpcport = port;
         //if ( conf[0] != 0 )
             printf("PATH.(%s) CONF.(%s) txfee %.8f\n",path!=0?path:"",conf,dstr(chain->txfee));
